@@ -1,6 +1,6 @@
 # Contact Form
 
-This is a comprehensive contact form built using Vite, TypeScript, and React with the `react-hook-form` library. It includes advanced features such as form submission, validation, custom validation, setting default values, nested objects, touched and dirty states, field values, disabling fields, handling submission errors, disabling form submission, tracking `isSubmitting`, `isSubmitted`, and `submitCount`, resetting the form, using `useEffect()` for side effects, and async validation. The UI is designed to be modern and user-friendly with a black background and white text.
+This comprehensive contact form is built using Vite, TypeScript, and React with the `react-hook-form` library. It includes advanced features such as form submission, validation, custom validation, setting default values, nested objects, touched and dirty states, field values, disabling fields, handling submission errors, disabling form submission, tracking `isSubmitting`, `isSubmitted`, and `submitCount`, resetting the form, using `useEffect()` for side effects, and async validation. The UI is designed to be modern and user-friendly with a black background and white text.
 
 ## Features
 - **Form Submission:** Handles form submission with client-side validation.
@@ -41,26 +41,21 @@ npm install
 3. Start the development server:
 npm run dev
 
-Usage
+## Usage
+
 Open your browser and navigate to http://localhost:5173.
-
 Fill out the form and submit it to see the form data in the console.
-
 Test the form submission, including async operations and error handling.
-
 Test the form reset functionality.
 
-Technologies Used
+## Technologies Used
+
 Vite: Fast and efficient build tool.
 
 TypeScript: Statically typed superset of JavaScript.
-
 React: JavaScript library for building user interfaces.
-
 React Hook Form: Advanced form management for React.
-
 Yup: Schema builder for validation.
-
 CSS: Styling the form and application.
 
 
