@@ -1,54 +1,73 @@
-# React + TypeScript + Vite
+# Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a comprehensive contact form built using Vite, TypeScript, and React with the `react-hook-form` library. It includes advanced features such as form submission, validation, custom validation, setting default values, nested objects, touched and dirty states, field values, disabling fields, handling submission errors, disabling form submission, tracking `isSubmitting`, `isSubmitted`, and `submitCount`, resetting the form, using `useEffect()` for side effects, and async validation. The UI is designed to be modern and user-friendly with a black background and white text.
 
-Currently, two official plugins are available:
+## Features
+- **Form Submission:** Handles form submission with client-side validation.
+- **Validation:** Advanced form validation using `react-hook-form` and `yup`.
+- **Custom Validation:** Custom validation rules for specific fields.
+- **Default Values:** Pre-populates form fields with default values.
+- **Nested Objects:** Manages nested form fields (e.g., address).
+- **Touched and Dirty States:** Tracks whether fields have been touched or modified.
+- **Field Values:** Manages and displays field values.
+- **Disabling Fields:** Disables fields during form submission.
+- **Handling Submission Errors:** Displays error messages for invalid form inputs.
+- **Disabling Form Submission:** Prevents multiple form submissions.
+- **Tracking Form Status:** Tracks `isSubmitting`, `isSubmitted`, and `submitCount`.
+- **Resetting the Form:** Allows users to reset the form to default values.
+- **Side Effects:** Uses `useEffect()` for additional form management.
+- **Async Validation:** Supports asynchronous validation operations.
+- **Improved UI Design:** Modern and sleek design with a black background and white text.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+### Form View
+![Form View](screenshots/form-view.png)
 
-## Expanding the ESLint configuration
+### Validation Error
+![Validation Error](screenshots/validation-error.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Successful Submission
+![Successful Submission](screenshots/submission-success.png)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/contact-form.git
+   cd contact-form
+2. Install dependencies:
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3. Start the development server:
+npm run dev
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Usage
+Open your browser and navigate to http://localhost:5173.
+
+Fill out the form and submit it to see the form data in the console.
+
+Test the form submission, including async operations and error handling.
+
+Test the form reset functionality.
+
+Technologies Used
+Vite: Fast and efficient build tool.
+
+TypeScript: Statically typed superset of JavaScript.
+
+React: JavaScript library for building user interfaces.
+
+React Hook Form: Advanced form management for React.
+
+Yup: Schema builder for validation.
+
+CSS: Styling the form and application.
+
+
+### 🔁 **Step 4: Commit and Push**
+1. Add and commit all changes:
+
+```bash
+git add .
+git commit -m "Added screenshots and updated README.md"
+git push origin main
