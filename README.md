@@ -41,28 +41,19 @@ npm install
 3. Start the development server:
 npm run dev
 
-## Usage
+## Usage  
+- Open your browser and navigate to `http://localhost:5173`.  
+- Fill out the form and submit it to see the form data in the console.  
+- Test the form submission, including async operations and error handling.  
+- Test the form reset functionality.  
 
-Open your browser and navigate to http://localhost:5173.
-Fill out the form and submit it to see the form data in the console.
-Test the form submission, including async operations and error handling.
-Test the form reset functionality.
-
-## Technologies Used
-
-Vite: Fast and efficient build tool.
-
-TypeScript: Statically typed superset of JavaScript.
-React: JavaScript library for building user interfaces.
-React Hook Form: Advanced form management for React.
-Yup: Schema builder for validation.
-CSS: Styling the form and application.
+## Technologies Used  
+- Vite: Fast and efficient build tool.  
+- TypeScript: Statically typed superset of JavaScript.  
+- React: JavaScript library for building user interfaces.  
+- React Hook Form: Advanced form management for React.  
+- Yup: Schema builder for validation.  
+- CSS: Styling the form and application.  
 
 
-### 🔁 **Step 4: Commit and Push**
-1. Add and commit all changes:
 
-```bash
-git add .
-git commit -m "Added screenshots and updated README.md"
-git push origin main
