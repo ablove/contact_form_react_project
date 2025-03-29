@@ -1,6 +1,8 @@
 # Contact Form
 
-This comprehensive contact form is built using Vite, TypeScript, and React with the `react-hook-form` library. It includes advanced features such as form submission, validation, custom validation, setting default values, nested objects, touched and dirty states, field values, disabling fields, handling submission errors, disabling form submission, tracking `isSubmitting`, `isSubmitted`, and `submitCount`, resetting the form, using `useEffect()` for side effects, and async validation. The UI is designed to be modern and user-friendly with a black background and white text.
+This comprehensive contact form is built using Vite, TypeScript, and React with the `react-hook-form` library. It includes advanced features such as form submission, validation, custom validation, setting default values, nested objects, touched and dirty states, field values, disabling fields, handling submission errors, disabling form submission, tracking `isSubmitting`, `isSubmitted`, and `submitCount`, resetting the form, using `useEffect()` for side effects, and async validation.  
+
+The UI is designed to be modern and user-friendly with a black background and white text.
 
 ## Features
 - **Form Submission:** Handles form submission with client-side validation.
@@ -33,7 +35,7 @@ This comprehensive contact form is built using Vite, TypeScript, and React with 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/contact-form.git
+   git clone https://github.com/ablove/contact-form.git
    cd contact-form
 2. Install dependencies:
 npm install
